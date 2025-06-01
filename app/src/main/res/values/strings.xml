@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LanguageApp</string>
+    <string name="white">white</string>
+    <string name="black">black</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="french_lesson">French Lesson</string>
+    <string name="blanc_blanche">blanc/blanche</string>
+    <string name="noir_noire">noir/noire</string>
+    <string name="vert_verte">vert/verte</string>
+    <string name="bleu_bleue">bleu/bleue</string>
+    <string name="play">play</string>
+</resources>
