@@ -38,12 +38,15 @@ public class MainActivity extends AppCompatActivity {
         Button blackBtn = findViewById(R.id.button2);
         Button greenBtn = findViewById(R.id.button3);
         Button blueBtn = findViewById(R.id.button4);
+        Button orangeBtn = findViewById(R.id.button5);
+        Button yellowBtn = findViewById(R.id.button6);
 
         whiteBtn.setOnClickListener(v -> speak("blanc"));
         blackBtn.setOnClickListener(v -> speak("noir"));
         greenBtn.setOnClickListener(v -> speak("vert"));
         blueBtn.setOnClickListener(v -> speak("bleu"));
-
+        orangeBtn.setOnClickListener(v -> speak("orange"));
+        yellowBtn.setOnClickListener(v -> speak("jaune"));
     }
 
     private void speak(String text) {
